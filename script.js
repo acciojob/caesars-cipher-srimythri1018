@@ -11,7 +11,13 @@ const lookup = {
 };
 
 function rot13(encodedStr){
-   let decodedArr = []; // Your Result goes here
+   let decodedArr = []; 
+	let i=0;
+	while(i<encodeStr.length){
+		i= encodeStr - 13;
+		i++
+	}
+	// Your Result goes here
   // Only change code below this line
 
   return ;//return decodedArr
